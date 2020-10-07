@@ -1,4 +1,4 @@
-package com.frankcarlone.jwdnd.course1.services;
+package com.frankcarlone.jwdnd.course1.service;
 
 import com.frankcarlone.jwdnd.course1.mapper.UserMapper;
 import com.frankcarlone.jwdnd.course1.model.User;

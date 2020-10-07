@@ -1,7 +1,7 @@
 package com.frankcarlone.jwdnd.course1.controller;
 
 import com.frankcarlone.jwdnd.course1.model.User;
-import com.frankcarlone.jwdnd.course1.services.UserService;
+import com.frankcarlone.jwdnd.course1.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

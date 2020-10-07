@@ -1,4 +1,4 @@
-package com.frankcarlone.jwdnd.course1.services;
+package com.frankcarlone.jwdnd.course1.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
