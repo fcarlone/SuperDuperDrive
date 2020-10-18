@@ -1,11 +1,22 @@
 package com.frankcarlone.jwdnd.course1.model;
 
-public class NoteForm {
+public class Note {
 
+    // fields
     private Integer noteId;
     private String noteTitle;
     private String noteDescription;
+    private Integer userId;
 
+    // constructor
+    public Note(Integer noteId, String noteTitle, String noteDescription, Integer userId) {
+        this.noteId = noteId;
+        this.noteTitle = noteTitle;
+        this.noteDescription = noteDescription;
+        this.userId = userId;
+    }
+
+    // getters and setters
     public Integer getNoteId() {
         return noteId;
     }
@@ -30,12 +41,22 @@ public class NoteForm {
         this.noteDescription = noteDescription;
     }
 
+    public Integer getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Integer userId) {
+        this.userId = userId;
+    }
+
     @Override
     public String toString() {
-        return "NoteForm{" +
+        return "Note{" +
                 "noteId=" + noteId +
                 ", noteTitle='" + noteTitle + '\'' +
                 ", noteDescription='" + noteDescription + '\'' +
+                ", userId=" + userId +
                 '}';
     }
 }
+
